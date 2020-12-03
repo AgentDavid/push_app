@@ -12,7 +12,7 @@ class NotificacionesProvider {
 
     _firebaseMessaging.configure(
       onMessage: onMessage,
-      onBackgroundMessage: onBackgroundMessage,
+      onBackgroundMessage: onBackgroundMessage, // <---- Linea del Error
       onLaunch: onLaunch,
       onResume: onMessage,
     );
